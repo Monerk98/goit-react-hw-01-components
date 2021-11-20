@@ -1,0 +1,35 @@
+.item
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    margin:0 auto;
+    margin-bottom: 10px;
+    background-color: grey;
+}
+.avatar
+{
+    width: 70px;
+}
+.online
+{
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    border-radius: 50%;
+}
+/* .online:first-child{
+    margin-left: 5px;
+} */
+.online:nth-child(1)
+{
+    margin-left: 3px; 
+}
+.offline
+{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+}
