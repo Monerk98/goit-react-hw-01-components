@@ -9,7 +9,6 @@ import data from "./components/Statistics/data.json";
 import fr from "./components/Friends/fr.json";
 import hist from "./components/Transaction/transHistory.json";
 import Profile from "./components/Profile/Profile";
-import "./App.css";
 function App() {
   return (
     <div className="App">
