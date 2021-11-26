@@ -12,6 +12,10 @@
     display: flex;
     flex-wrap: wrap;
 }
+.title
+{
+    margin-bottom: 10px;
+}
 .item
 {
     width: 50px;
